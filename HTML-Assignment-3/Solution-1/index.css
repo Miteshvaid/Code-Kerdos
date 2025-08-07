@@ -1,0 +1,42 @@
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.child {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  padding: 20px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.class1 {
+  height: 20px;
+  width: 20px;
+  order: 3;
+}
+.class2 {
+  height: 80px;
+  width: 80px;
+  order: 2;
+}
+.class3 {
+  height: 40px;
+  width: 40px;
+  order: 1;
+}
+.class4 {
+  height: 120px;
+  width: 120px;
+  order: 4;
+}
