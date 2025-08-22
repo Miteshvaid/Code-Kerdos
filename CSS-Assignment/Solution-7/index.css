@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 40px;
+  color: #0056b1;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  animation: slide 6s linear forwards;
+  /* Important code lines */
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes slide {
+  from {
+    width: 400px;
+  }
+}
+
+/* @keyframes slide {
+  to {
+    width: 400px;
+  }
+} */
